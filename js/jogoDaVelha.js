@@ -65,6 +65,7 @@ function checar() {
         if (soma == 3 || soma == -3) {
             aviso.innerHTML = 'O jogador ' + numeroJogador() + ' ganhou!'
             alert('O jogador ' + numeroJogador() + ' ganhou!')
+            break
         }
     }
     
@@ -76,6 +77,7 @@ function checar() {
         if (soma == 3 || soma == -3) {
             aviso.innerHTML = 'O jogador ' + numeroJogador() + ' ganhou!'
             alert('O jogador ' + numeroJogador() + ' ganhou!')
+            break
         }
     }
 
@@ -87,6 +89,7 @@ function checar() {
         if (soma == 3 || soma == -3) {
             aviso.innerHTML = 'O jogador ' + numeroJogador() + ' ganhou!'
             alert('O jogador ' + numeroJogador() + ' ganhou!')
+            break
         }
     }
     for (let i = 0; i < 3; i++) {
@@ -96,6 +99,7 @@ function checar() {
         if (soma == 3 || soma == -3) {
             aviso.innerHTML = 'O jogador ' + numeroJogador() + ' ganhou!'
             alert('O jogador ' + numeroJogador() + ' ganhou!')
+            break
         }
     }
 }
