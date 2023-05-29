@@ -106,3 +106,5 @@ function checar() {
 function numeroJogador() {
     return jogador % 2 + 1
 }
+
+
